@@ -1,4 +1,4 @@
-.header__lang-link_active {
+.header__lang-link-On {
 	margin: 0;
 	max-width: 30px;
 	max-height: 28px;
@@ -11,7 +11,7 @@
 	color: #FFFFFF;
 	}
 
-	.header__lang-link_active:hover
+	.header__lang-link-On:hover
 {
 	opacity: .3
 }

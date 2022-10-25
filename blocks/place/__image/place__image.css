@@ -1,0 +1,29 @@
+.place__image {
+	margin: 0;
+	max-width: 460px;
+	max-height: 460px;
+}
+
+@media screen and (min-width: 896px) and (max-width: 1152px) {
+	.place__image {
+		margin: 0;
+		max-width: 440px;
+		max-height: 440px;
+	}
+}
+
+@media screen and (min-width: 543px) and (max-width: 895px) {
+	.place__image {
+		margin: 0;
+		max-width: 340px;
+		max-height: 340px;
+	}
+}
+
+@media screen and (max-width: 542px) {
+	.place__image {
+		margin: 0;
+		max-width: 320px;
+		max-height: 320px;
+	}
+}

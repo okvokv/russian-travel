@@ -1,0 +1,12 @@
+/* Подножие сайта ==================================================*/
+.footer {
+	margin: 0 auto;
+	padding-top: 95px;
+	max-width: 1184px;
+	max-height: 18px;
+}
+@media screen and (max-width: 542px) {
+	.footer {
+		max-height: 310px;
+	}
+}

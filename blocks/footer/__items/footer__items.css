@@ -1,8 +1,10 @@
 .footer__items {
+	margin: 0;
 	display: flex;
 	justify-content: space-between;
 }
-@media screen and (max-width: 542px) {
+
+@media screen and (max-width: 741px) {
 	.footer__items {
 		flex-direction: column;
 		align-items: flex-start;

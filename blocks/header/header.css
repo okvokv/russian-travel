@@ -1,29 +1,25 @@
 /* Шапка =====================================================*/
 .header {
 	margin: 0 auto;
-	display: flex;
 	max-width: 1184px;
-	max-height: 52px;
+	display: flex;
 	justify-content: space-between;
 }
-@media screen and (min-width: 896px) and (max-width: 1152px) {
+
+@media screen and (min-width: 930px) and (max-width: 1279px) {
 	.header {
-		margin: 0 auto;
-		max-width: 928px;
+		max-width: calc(100% - 2*48px);
 	}
 }
 
-@media screen and (min-width: 543px) and (max-width: 895px) {
+@media screen and (min-width: 721px) and (max-width: 929px) {
 	.header {
-		margin: 0 auto;
-		max-width: 720px;
+		max-width: calc(100% - 2*24px);
 	}
 }
 
-@media screen and (max-width: 542px) {
+@media screen and (max-width: 720px) {
 	.header {
-		margin: 0 auto;
-		max-width: 288px;
-		max-height: 42px;
+		max-width: calc(100% - 2*16px)
 	}
 }

@@ -1,6 +1,6 @@
 .footer__link {
+	margin: 0;
 	max-width: 106px;
-	max-height: 18px;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -11,15 +11,21 @@
 }
 
 .footer__link:hover {
-	opacity: .3;
+	cursor: pointer;
+	opacity: .8;
 }
 
-@media screen and (max-width: 542px) {
+@media screen and (max-width: 742px) {
 	.footer__link {
 		max-width: 158px;
-		max-height: 24px;
 		font-size: 24px;
 		line-height: 1;
-		padding-bottom: 32px;
+		margin-bottom: 32px;
+	}
+}
+
+@media screen and (max-width: 742px) {
+	.footer__link:last-of-type {
+		margin-bottom: 0;
 	}
 }

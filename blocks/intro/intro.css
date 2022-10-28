@@ -1,23 +1,30 @@
 .intro {
 	margin: 0 auto;
 	padding-top: 92px;
-	max-width: 690px;
-	max-height: 429px;
-	}
+	/* максимальная ширина предыдущей секции */
+	max-width: 984px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 
-@media screen and (min-width: 543px) and (max-width: 895px) {
-	.intro {
-		margin: 0;
-		padding-top: 88px;
-		max-width: 720px;
-		}
 }
 
-@media screen and (max-width: 542px) {
+@media screen and (min-width: 929px) and (max-width: 1023px) {
 	.intro {
-		margin: 0;
+		max-width: 928px;
+	}
+}
+
+@media screen and (min-width: 322px) and (max-width: 928px) {
+	.intro {
+		padding-top: 88px;
+		max-width: 768px;
+	}
+}
+
+@media screen and (max-width: 321px) {
+	.intro {
 		padding-top: 64px;
-		max-width: 288px;
-		max-height: 754px;
+		max-width: 320px;
 	}
 }

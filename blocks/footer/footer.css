@@ -1,12 +1,28 @@
 /* Подножие сайта ==================================================*/
 .footer {
 	margin: 0 auto;
-	padding-top: 95px;
+	padding-top: 92px;
 	max-width: 1184px;
-	max-height: 18px;
+	padding-bottom: 24px;
 }
-@media screen and (max-width: 542px) {
+
+@media screen and (min-width: 940px) and (max-width: 1185px) {
 	.footer {
-		max-height: 310px;
+		max-width: calc(100% - 2*48px);
+	}
+}
+
+@media screen and (min-width: 741px) and (max-width: 939px) {
+	.footer {
+		padding-top: 88px;
+		max-width: calc(100% - 2*24px);
+	}
+}
+
+@media screen and (max-width: 742px) {
+	.footer {
+		padding-top: 64px;
+		margin-left: 16px;
+		max-width: calc(100% - 16px - 100px);
 	}
 }

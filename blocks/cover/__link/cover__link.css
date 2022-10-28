@@ -1,12 +1,12 @@
 .cover__link {
-  margin: auto;
-  display: flex;
-  height: 740px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;  
-  text-decoration: none;
-  color: #FFFFFF;
+	margin: auto;
+	display: flex;
+	height: 740px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: #FFFFFF;
 }
 
 

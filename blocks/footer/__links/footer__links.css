@@ -7,11 +7,16 @@
 	list-style-type: none;
 }
 
+@media screen and (max-width: 741px) {
+	.footer__links {
+		margin-bottom: 48px;
+	}
+}
+
 @media screen and (max-width: 542px) {
 	.footer__links {
 		flex-direction: column;
 		align-items: flex-start;
 		justify-content: space-between;
-		margin-bottom: 48px;
 	}
 }

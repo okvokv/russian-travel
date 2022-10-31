@@ -12,16 +12,16 @@
 	}
 }
 
-@media screen and (min-width: 740px) and (max-width: 928px) {
+@media screen and (min-width: 641px) and (max-width: 928px) {
 	.places {
 		padding-top: 88px;
 		max-width: calc(100% - 2*24px);
 	}
 }
 
-@media screen and (max-width: 739px) {
+@media screen and (max-width: 640px) {
 	.places {
 		padding-top: 64px;
-		max-width: calc(100% - 2*16px);
+		max-width: 100%;
 	}
 }

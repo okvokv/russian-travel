@@ -9,7 +9,7 @@
 	}
 }
 
-@media screen and (max-width: 542px) {
+@media screen and (max-width: 741px) {
 	.footer__item:last-of-type {
 		margin-bottom: 0;
 	}

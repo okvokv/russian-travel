@@ -2,18 +2,9 @@
 	margin: 0 auto;
 	max-width: 1184px;
 	margin-top: 92px;
-	background-image: url("../../images/cover-trains.jpg");
-	background-repeat: no-repeat;
-  background-position: center;
-	background-size: cover;
- }
-
- .cover:hover {
-  cursor: pointer;
-	opacity: 0.8;
 }
 
-@media screen and (min-width: 896px) and (max-width: 1152px) {
+@media screen and (max-width: 1152px) {
 	.cover {
 		max-width: 100%;
 	}
@@ -22,13 +13,11 @@
 @media screen and (min-width: 543px) and (max-width: 895px) {
 	.cover {
 		margin-top: 90px;
-		max-width: 100%;
 	}
 }
 
 @media screen and (max-width: 542px) {
 	.cover {
 		margin-top: 66px;
-		max-width: 100%;
 	}
 }

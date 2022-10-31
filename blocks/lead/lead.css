@@ -4,16 +4,20 @@
 	padding-top: 56px;
 }
 
-@media screen and (min-width: 929px) and (max-width: 1023px) {
+@media screen and (max-width: 1152px) {
+	.lead {
+		padding-top: 48px;
+	}
+}
+
+@media screen and (min-width: 929px) and (max-width: 1152px) {
 	.lead {
 		max-width: 928px;
-		padding-top: 48px;
 	}
 }
 
 @media screen and (max-width: 928px) {
 	.lead {
 		max-width: 100%;
-		padding-top: 48px;
 	}
 }

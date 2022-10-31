@@ -12,13 +12,13 @@
 	}
 }
 
-@media screen and (min-width: 721px) and (max-width: 929px) {
+@media screen and (min-width: 543px) and (max-width: 929px) {
 	.header {
 		max-width: calc(100% - 2*24px);
 	}
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 542px) {
 	.header {
 		max-width: calc(100% - 2*16px);
 	}

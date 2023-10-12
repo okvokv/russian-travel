@@ -3,7 +3,7 @@
 	align-self: end;
 }
 
-@media screen and (max-width: 352px) {
+@media screen and (max-width: 492px) {
 	.place__website {
 		margin-left: 16px;
 	}

@@ -1,10 +1,11 @@
 /* Подножие сайта ==================================================*/
 .footer {
 	margin: 0 auto;
+	padding-top: 92px;
+	padding-bottom: 24px;
+	max-width: 1184px;
 	display: flex;
 	justify-content: space-between;
-	max-width: 1184px;
-	padding-top: 92px;
 }
 
 @media screen and (min-width: 940px) and (max-width: 1185px) {
@@ -20,12 +21,17 @@
 	}
 }
 
+@media screen and (min-width: 542px) and (max-width: 741px) {
+	.footer {
+		align-items: flex-end;
+	}
+}
+
 @media screen and (max-width: 741px) {
 	.footer {
 		padding-top: 64px;
-		margin-left: 16px;
-		max-width: calc(100% - 16px - 100px);
+		max-width: calc(100% - 16px - 16px);
 		flex-direction: column;
-		align-items: flex-start;
+		margin-left: 16px;
 	}
 }

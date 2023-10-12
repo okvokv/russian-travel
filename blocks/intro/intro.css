@@ -1,8 +1,7 @@
 .intro {
 	margin: 0 auto;
-	padding-top: 92px;
 	/* максимальная ширина предыдущей секции */
-	max-width: 984px;
+	width: 984px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -10,24 +9,12 @@
 
 @media screen and (min-width: 929px) and (max-width: 1152px) {
 	.intro {
-		max-width: 928px;
+		width: 928px;
 	}
 }
 
 @media screen and (max-width: 928px) {
 	.intro {
-		max-width: 100%;
-	}
-}
-
-@media screen and (min-width: 543px) and (max-width: 928px) {
-	.intro {
-		padding-top: 88px;
-	}
-}
-
-@media screen and (max-width: 542px) {
-	.intro {
-		padding-top: 64px;
+		width: 100%;
 	}
 }

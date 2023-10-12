@@ -4,20 +4,18 @@
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.12;
-	margin-right: 18px;
 	text-decoration: none;
 	color: #FFFFFF;
 	cursor: pointer;
 }
 
 .footer__link:hover {
-	opacity: .8;
+	opacity: .7;
 }
 
-@media screen and (max-width: 542px) {
+@media screen and (max-width: 541px) {
 	.footer__link {
 		font-size: 24px;
 		line-height: 1;
-		margin-right: 0;
 	}
 }

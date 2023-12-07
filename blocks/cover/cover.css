@@ -1,17 +1,28 @@
 .cover {
 	margin: 0 auto;
-	min-width: 1184px;
-	
+	width: calc(100% - 96px);
+	min-height: 740px;
+	background-image: url("../../../images/cover-trains.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 @media screen and (max-width: 1152px) {
 	.cover {
-		min-width: 100%;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 896px) and (max-width: 1152px) {
+	.cover {
+		min-height: 640px;
 	}
 }
 
 @media screen and (max-width: 895px) {
 	.cover {
 		margin-top: 2px;
+		min-height: 480px;
 	}
 }

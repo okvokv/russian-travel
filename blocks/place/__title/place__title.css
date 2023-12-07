@@ -6,6 +6,7 @@
 	font-size: 72px;
 	line-height: 1.05;
 	align-self: end;
+	text-shadow: 1px 1px 46px rgba(200, 210, 218, 0.5);
 }
 
 @media screen and (min-width: 929px) and (max-width: 1152px) {

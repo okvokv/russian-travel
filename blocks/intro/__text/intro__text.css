@@ -1,7 +1,7 @@
 .intro__text {
 	margin: 0;
 	margin-top: 40px;
-	max-width: 690px;
+	width: 690px;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -18,12 +18,12 @@
 
 @media screen and (min-width: 543px) and (max-width: 1000px) {
 	.intro__text {
-		max-width: calc(100% - 2*24px);
+		width: calc(100% - 2*24px);
 	}
 }
 
 @media screen and (max-width: 542px) {
 	.intro__text {
-		max-width: calc(100% - 2*16px);
+		width: calc(100% - 2*16px);
 	}
 }

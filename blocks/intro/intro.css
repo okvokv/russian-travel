@@ -2,9 +2,6 @@
 	margin: 0 auto;
 	/* максимальная ширина предыдущей секции */
 	width: 984px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
 }
 
 @media screen and (min-width: 929px) and (max-width: 1152px) {

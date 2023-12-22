@@ -1,26 +1,18 @@
 .main {
 	margin: 0 auto;
-	max-width: 1184px;
-	display: grid;
-	/*grid-template-columns: 1184px;*/
-	/*отступы между секциями*/
-	grid-row-gap: 92px;
-}
-
-@media screen and (max-width: 928px) {
-	.main {
-		max-width: 100%;
-	}
+	display: flex;
+	flex-direction: column;
+	gap: 92px;
 }
 
 @media screen and (min-width: 543px) and (max-width: 928px) {
 	.main {
-		grid-row-gap: 88px;
+		gap: 88px;
 	}
 }
 
 @media screen and (max-width: 542px) {
 	.main {
-		grid-row-gap: 64px;
+		gap: 64px;
 	}
 }

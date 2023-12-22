@@ -2,20 +2,19 @@
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	display: grid;
-	grid-column-gap: 18px;
-	grid-auto-flow: column;
+	display: flex;
+	gap: 18px;
 }
 
-@media screen and (max-width: 741px) {
-	.footer__links {
-		margin-bottom: 48px;
+@media screen and (min-width: 542px) and (max-width: 741px) {
+	.footer__links{
+		justify-content: flex-end;
 	}
 }
 
 @media screen and (max-width: 541px) {
 	.footer__links {
-		grid-auto-flow: row;
-		grid-row-gap: 32px;
+		flex-direction: column;
+		gap: 32px;
 	}
 }

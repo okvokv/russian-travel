@@ -1,14 +1,15 @@
 .cover__link {
-	min-height: 100%;
 	/* изменяем на display flex, чтобы растянуть высоту строкового элемента */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	min-height: inherit;
 	color: #FFFFFF;
 	text-decoration: none;
 	background-color: rgba(42, 44, 47, .3);
 	transition: .2s;
 	cursor: pointer;
+	z-index: 0;
 }
 
 .cover__link:hover {

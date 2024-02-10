@@ -4,7 +4,17 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.63;
+	/*text-indent: 10px;*/
 	margin-bottom: 26px;
+}
+
+.place__paragraph::first-letter {
+	color: rgb(184, 44, 44);
+	font-weight: 500;
+	font-size: 54px;
+	line-height: 1.08;
+	letter-spacing: 4px;
+	float: left;
 }
 
 .place__paragraph:last-of-type {
@@ -15,12 +25,15 @@
 	.place__paragraph {
 		font-size: 16px;
 	}
+
+	.place__paragraph::first-letter {
+		font-size: 48px;
+	}
 }
 
-@media screen and (max-width: 492px) {
+@media screen and (max-width: 640px) {
 	.place__paragraph {
-		margin-left: auto;
-		margin-right: auto;
+		margin: 0 auto;
 		max-width: calc(100% - 2*16px);
 	}
 }

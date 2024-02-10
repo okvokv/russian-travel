@@ -1,11 +1,10 @@
 .place__title {
 	margin: 0;
-	/*max-width: 460px;*/
 	font-style: normal;
 	font-weight: 900;
 	font-size: 72px;
 	line-height: 1.05;
-	/*align-self: end;*/
+	align-self: flex-start;
 	text-shadow: 1px 1px 46px rgba(200, 210, 218, 0.5);
 }
 
@@ -15,14 +14,14 @@
 	}
 }
 
-@media screen and (min-width: 493px) and (max-width: 928px) {
+@media screen and (min-width: 641px) and (max-width: 928px) {
 	.place__title {
 		max-width: 330px;
 		font-size: 42px;
 	}
 }
 
-@media screen and (max-width: 492px) {
+@media screen and (max-width: 640px) {
 	.place__title {
 		max-width: 288px;
 		font-size: 32px;

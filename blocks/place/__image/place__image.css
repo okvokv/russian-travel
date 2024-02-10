@@ -6,3 +6,9 @@
 	object-fit: contain;
 	box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, .5 );
 }
+
+@media screen and (max-width: 640px) {
+	.place__image {
+		box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .5 );
+}
+}

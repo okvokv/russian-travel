@@ -4,8 +4,8 @@
 	padding-top: 92px;
 	padding-bottom: 24px;
 	max-width: 1280px;
-	width: calc(100% - 2*48px);
 	min-width: 288px;
+	width: calc(100% - 2*48px);
 	display: flex;
 	justify-content: space-between;
 }
